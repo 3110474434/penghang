@@ -20,7 +20,6 @@ namespace WebShop.Model
         public string Question { get; set; }
         public string Answer { get; set; }
 
-
         #region 导航属性
         public virtual Cart Cart { set; get; }
 
